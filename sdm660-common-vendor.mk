@@ -316,7 +316,6 @@ PRODUCT_PACKAGES += \
     libcne \
     libcneapiclient \
     libcneoplookup \
-    libcneqmiutils \
     libconfigdb \
     libdataitems \
     libdisp-aba \
