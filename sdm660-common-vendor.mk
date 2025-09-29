@@ -671,9 +671,9 @@ PRODUCT_PACKAGES += \
     CneApp \
     IWlanService \
     TimeService \
-    PowerOffAlarm \
     DeviceInfo \
     DynamicDDSService \
+    PowerOffAlarm \
     QtiTelephonyService \
     uceShimService \
     dpmserviceapp \
