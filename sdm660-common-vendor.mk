@@ -196,6 +196,7 @@ PRODUCT_PACKAGES += \
     libmdmdetect \
     libmdsprpc \
     libminkdescriptor \
+    libminksocket \
     libmm-hdcpmgr \
     libmmcamera_dbg \
     libmulawdec \
@@ -342,7 +343,6 @@ PRODUCT_PACKAGES += \
     liblowi_client \
     liblowi_wifihal \
     liblqe \
-    libminksocket \
     libmlipay \
     libmlipay@1.1 \
     libnetmgr \
