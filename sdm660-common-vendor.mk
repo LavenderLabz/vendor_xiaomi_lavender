@@ -541,7 +541,6 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.2_system_ext \
     vendor.display.postproc@1.0_system_ext \
     vendor.qti.ImsRtpService-V1-ndk \
-    vendor.qti.ImsRtpService-V2-ndk \
     vendor.qti.data.factory@1.0 \
     vendor.qti.data.factory@2.0 \
     vendor.qti.data.factory@2.1 \
