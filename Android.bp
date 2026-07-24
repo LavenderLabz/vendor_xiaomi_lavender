@@ -34959,7 +34959,8 @@ cc_prebuilt_library_shared {
                 "libaudioclient",
                 "libaudiofoundation",
                 "audioclient-types-aidl-cpp",
-                "android.media.audio.common.types-V4-cpp",
+                "libaudiobase",
+                "android.media.audio.common.types-V5-cpp",
                 "libc++",
                 "libc",
                 "libm",
@@ -39311,15 +39312,6 @@ dex_import {
     owner: "xiaomi",
     jars: [
         "proprietary/system_ext/framework/qcrilhook.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "qti-telephony-common",
-    owner: "xiaomi",
-    jars: [
-        "proprietary/system_ext/framework/qti-telephony-common.jar",
     ],
     system_ext_specific: true,
 }
