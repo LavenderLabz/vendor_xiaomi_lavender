@@ -198,53 +198,18 @@ PRODUCT_PACKAGES += \
     libsdm-disp-apis \
     vendor.qti.diaghal-V1-ndk \
     libGLESv2_adreno \
-    android.hardware.bluetooth@1.0-impl-qti \
-    android.hardware.gatekeeper@1.0-impl-qti \
-    android.hardware.keymaster@3.0-impl-qti \
-    audio.bluetooth_qti.default \
-    gatekeeper.sdm660 \
-    vendor.qti.esepowermanager@1.1-impl \
-    vendor.qti.hardware.bluetooth_audio@2.0-impl \
-    vendor.qti.hardware.bluetooth_audio@2.1-impl \
-    vendor.qti.hardware.bluetooth_sar@1.1-impl \
-    vendor.qti.hardware.btconfigstore@1.0-impl \
-    vendor.qti.hardware.btconfigstore@2.0-impl \
-    vendor.qti.hardware.qseecom@1.0-impl \
-    vendor.qti.hardware.qteeconnector@1.0-impl \
-    vulkan.adreno \
-    libGPreqcancel_svc \
     libOpenCL \
-    libQSEEComAPI \
     libadreno_utils \
-    libbluetooth_audio_session_qti \
-    libbluetooth_audio_session_qti_2_1 \
-    libbtnv \
     libcdsprpc \
     libdiag \
     libfastcvopt \
     libgsl \
-    libidl \
-    libkeymasterdeviceutils \
     libllvm-glnext \
     libmmcamera_dbg \
-    libqcbor \
     libqmi_cci \
     libqmi_common_so \
     libqmi_encdec \
-    libqmiservices \
     libsensor1 \
-    libsoc_helper \
-    libasphere \
-    libqcbassboost \
-    libqcreverb \
-    libqcvirt \
-    libshoebox \
-    vendor.qti.esepowermanager@1.0 \
-    vendor.qti.esepowermanager@1.1 \
-    vendor.qti.hardware.bluetooth_sar@1.0 \
-    vendor.qti.hardware.bluetooth_sar@1.1 \
-    vendor.qti.hardware.qseecom@1.0_vendor \
-    vendor.qti.hardware.qteeconnector@1.0 \
     libDiracAPI_SHARED \
     libSNPE \
     libSonyIMX376C3RmscLibrary \
@@ -257,13 +222,9 @@ PRODUCT_PACKAGES += \
     libactuator_lavender_ov12a10_sunny_ii_dw9714 \
     libactuator_lavender_s5kgm1_ofilm_i_dw9800 \
     libactuator_lavender_s5kgm1_sunny_ii_dw9800 \
-    libadm \
-    libadpcmdec \
     libadsp_hvx_callback_skel \
     libadsp_hvx_stub \
     libarcsoft_dualcam_refocus \
-    libarcsoft_high_dynamic_range \
-    libarcsoft_supernight \
     libc++_shared \
     libcamera_scene \
     libchromatix_csidtg_common \
@@ -987,7 +948,6 @@ PRODUCT_PACKAGES += \
     libchromatix_lavender_s5kgm1_sunny_india_ii_zsl_preview_3a_sn \
     libchromatix_lavender_s5kgm1_sunny_india_ii_zsl_video_3a \
     libdepthmapwrapper \
-    libdrc \
     libflash_pmic \
     libjpegdhw \
     libjpegdmahw \
@@ -1141,16 +1101,30 @@ PRODUCT_PACKAGES += \
     libGLESv1_CM_adreno \
     libq3dtools_adreno \
     libq3dtools_esx \
+    android.hardware.bluetooth@1.0-impl-qti \
+    android.hardware.gatekeeper@1.0-impl-qti \
+    android.hardware.keymaster@3.0-impl-qti \
+    audio.bluetooth_qti.default \
     com.dsi.ant@1.0-impl \
     consumerir.lirc.sdm660 \
     consumerir.spi.sdm660 \
     fingerprint.fpc.default \
     fingerprint.goodix.default \
+    gatekeeper.sdm660 \
+    vendor.qti.esepowermanager@1.1-impl \
     vendor.qti.gnss@4.3-impl \
     vendor.qti.hardware.alarm@1.0-impl \
+    vendor.qti.hardware.bluetooth_audio@2.0-impl \
+    vendor.qti.hardware.bluetooth_audio@2.1-impl \
+    vendor.qti.hardware.bluetooth_sar@1.1-impl \
+    vendor.qti.hardware.btconfigstore@1.0-impl \
+    vendor.qti.hardware.btconfigstore@2.0-impl \
     vendor.qti.hardware.capabilityconfigstore@1.0-impl \
     vendor.qti.hardware.fm@1.0-impl_vendor \
+    vendor.qti.hardware.qseecom@1.0-impl \
+    vendor.qti.hardware.qteeconnector@1.0-impl \
     vendor.qti.hardware.soter@1.0-impl \
+    vulkan.adreno \
     lib-imscmservice \
     lib-imsdpl \
     lib-imsqimf \
@@ -1170,6 +1144,8 @@ PRODUCT_PACKAGES += \
     libGPQTEEC_vendor \
     libGPTEE_vendor \
     libGPreqcancel \
+    libGPreqcancel_svc \
+    libQSEEComAPI \
     libQTEEConnector_vendor \
     libSecureUILib \
     libStDrvInt \
@@ -1185,7 +1161,10 @@ PRODUCT_PACKAGES += \
     libaudioconfigstore \
     libaudioparsers \
     libbase64 \
+    libbluetooth_audio_session_qti \
+    libbluetooth_audio_session_qti_2_1 \
     libbt-hidlclient \
+    libbtnv \
     libc2d30_bltlib \
     libcacertclient \
     libcdfw \
@@ -1219,9 +1198,11 @@ PRODUCT_PACKAGES += \
     libgpudataproducer \
     libhdcpsrm \
     libhdr_tm \
+    libidl \
     libizat_client_api \
     libizat_core \
     libjnihelper \
+    libkeymasterdeviceutils \
     libkeymasterprovision \
     libkeymasterutils \
     liblbs_core \
@@ -1256,6 +1237,7 @@ PRODUCT_PACKAGES += \
     libpdmapper \
     libpdnotifier \
     libperipheral_client \
+    libqcbor \
     libqcc_file_agent \
     libqcci_legacy \
     libqcmaputils \
@@ -1270,6 +1252,7 @@ PRODUCT_PACKAGES += \
     libqmi_client_qmux \
     libqmi_csi \
     libqmi_legacy \
+    libqmiservices \
     libqrtr \
     libqseed3 \
     libqsocket \
@@ -1302,6 +1285,7 @@ PRODUCT_PACKAGES += \
     libsensor_reg \
     libsettings \
     libsi \
+    libsoc_helper \
     libspl \
     libssc_default_listener \
     libssd \
@@ -1326,6 +1310,11 @@ PRODUCT_PACKAGES += \
     qtimutex \
     sensor_calibrate \
     sensors.ssc \
+    libasphere \
+    libqcbassboost \
+    libqcreverb \
+    libqcvirt \
+    libshoebox \
     vendor.display.color@1.0 \
     vendor.display.color@1.1 \
     vendor.display.color@1.2 \
@@ -1336,6 +1325,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.data.factory@2.3_vendor \
     vendor.qti.data.mwqem@1.0_vendor \
     vendor.qti.data.slm@1.0_vendor \
+    vendor.qti.esepowermanager@1.0 \
+    vendor.qti.esepowermanager@1.1 \
     vendor.qti.gnss@1.0 \
     vendor.qti.gnss@1.1 \
     vendor.qti.gnss@1.2 \
@@ -1348,6 +1339,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@4.3-service \
     vendor.qti.gnss@4.3 \
     vendor.qti.hardware.alarm@1.0_vendor \
+    vendor.qti.hardware.bluetooth_sar@1.0 \
+    vendor.qti.hardware.bluetooth_sar@1.1 \
     vendor.qti.hardware.cacert@1.0 \
     vendor.qti.hardware.data.cne.internal.api@1.0_vendor \
     vendor.qti.hardware.data.cne.internal.constants@1.0_vendor \
@@ -1366,6 +1359,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.fm@1.0_vendor \
     vendor.qti.hardware.mwqemadapter@1.0_vendor \
     vendor.qti.hardware.qccsyshal@1.0 \
+    vendor.qti.hardware.qseecom@1.0_vendor \
+    vendor.qti.hardware.qteeconnector@1.0 \
     vendor.qti.hardware.radio.am@1.0_vendor \
     vendor.qti.hardware.radio.ims@1.0_vendor \
     vendor.qti.hardware.radio.ims@1.1_vendor \
