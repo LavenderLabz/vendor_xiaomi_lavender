@@ -25257,6 +25257,20 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libC2D2.so",
+            ],
+            shared_libs: [
+                "libgsl",
+                "libcutils",
+                "libutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/libC2D2.so",
@@ -25272,7 +25286,7 @@ cc_prebuilt_library_shared {
             ],
         },
     },
-    compile_multilib: "64",
+    compile_multilib: "both",
     prefer: true,
     soc_specific: true,
 }
@@ -26021,6 +26035,20 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libc2d30_bltlib.so",
+            ],
+            shared_libs: [
+                "libgsl",
+                "libcutils",
+                "libutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/libc2d30_bltlib.so",
@@ -26036,7 +26064,7 @@ cc_prebuilt_library_shared {
             ],
         },
     },
-    compile_multilib: "64",
+    compile_multilib: "both",
     prefer: true,
     soc_specific: true,
 }
